@@ -8,7 +8,7 @@ export const LoginFormDataSchema = z.object({
 export const RegistrationFormDataSchema = z.object({
   fullName: z.string().min(1, { message: 'Name is required' }),
   email: z.string().email({ message: 'Invalid email address' }).min(1, { message: 'Email is required' }),
-  zipCode: z.string().min(4, { message: 'Zip Code is required' }),
+  zipCode: z.number().min(4, { message: 'Zip Code is required' }),
   password: z.string().min(6, { message: 'Password is required' }),
   confirmPassword: z.string().min(6, { message: 'Confirm Password is required' }),
 }).refine(data => data.password === data.confirmPassword, {
