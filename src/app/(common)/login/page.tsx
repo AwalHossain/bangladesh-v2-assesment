@@ -1,6 +1,5 @@
 "use client";
 import LoginForm from "@/components/AuthUI/LoginForm";
-import { Button } from "@/components/ui/button";
 import { Suspense } from "react";
 
 // const SkinRegimenForm = dynamic(() => import('@/components/CustomerUI/SkinRegimenForm'), { ssr: false })
@@ -8,10 +7,6 @@ import { Suspense } from "react";
 export default function LoginPage() {
     return (
         <div>
-            <div className="mb-[27px]">
-                <Button className="w-[131px] h-[25px] bg-black py-1 px-[13px] rounded-[3px]">Login to Klassy</Button>
-                <p className="text-[#f90] text-[10px] pt-[9px]">* Login to sync your profile details for more easy step.</p>
-            </div>
             <Suspense fallback={<div>Loading...</div>}>
                 {/* <SkinRegimenForm /> */}
                 <LoginForm />
