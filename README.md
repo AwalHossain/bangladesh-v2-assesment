@@ -1,36 +1,33 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Bijoy 2024 - Next.js Developer Evaluation Task
 
-## Getting Started
+This project is a basic frontend application built using **Next.js**, **Tailwind CSS**, and **TypeScript**. It includes a login page with Google Sign-In, a data table fetched from an API, and a registration form with validation.
 
-First, run the development server:
+## Features
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+### 1. Project Initialization
+- Basic Next.js project setup.
+- Integrated Tailwind CSS
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### 2. Login Page
+- Simple login page with Google Sign-In.
+![image](https://github.com/user-attachments/assets/c535bf23-c727-4943-ab53-e26537f7f195)
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+### 3. Data Table
+- Fetches and displays user data from an API.
+![image](https://github.com/user-attachments/assets/c17d0c79-d3a4-43e0-8a5e-93aeb5efb31f)
 
-## Learn More
 
-To learn more about Next.js, take a look at the following resources:
+### 4. Registration Form
+- User-friendly registration form with validation.
+![image](https://github.com/user-attachments/assets/77624a91-9c2a-495b-be5d-a99f1b9114cf)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## Setup Instructions
+1. Clone the repository.
+2. Run `npm install` to install dependencies.
+3. Start the development server with `npm run dev`.
 
-## Deploy on Vercel
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+**Note:** The project is developed in TypeScript for better type safety and maintainability.
