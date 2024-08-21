@@ -86,6 +86,7 @@ function RegistrationForm() {
                                     <FormField
                                         label="Enter your Zip Code *"
                                         name="zipCode"
+                                        type="number"
                                         placeholder="12345"
                                     />
                                 </div>
