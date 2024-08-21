@@ -1,4 +1,5 @@
 "use client";
+import LoginForm from "@/components/AuthUI/LoginForm";
 import { Button } from "@/components/ui/button";
 import { Suspense } from "react";
 
@@ -13,6 +14,7 @@ export default function LoginPage() {
             </div>
             <Suspense fallback={<div>Loading...</div>}>
                 {/* <SkinRegimenForm /> */}
+                <LoginForm />
             </Suspense>
         </div>
     )
