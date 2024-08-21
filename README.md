@@ -1,6 +1,6 @@
 # Bijoy 2024 - Next.js Developer Evaluation Task
 
-This project is a basic frontend application built using **Next.js**, **Tailwind CSS**, and **TypeScript**. It includes a login page with Google Sign-In, a data table fetched from an API, and a registration form with validation.
+This project is a basic frontend application built using **Next.js**, **Tailwind CSS**,**TypeScript**. and **Framer-Motion**. It includes a login page with Google Sign-In, a data table fetched from an API, and a registration form with validation.
 
 ## Features
 
